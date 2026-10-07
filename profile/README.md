@@ -3,7 +3,7 @@
 <p align="center"><b>Playback statistics for Jellyfin.</b></p>
 
 finstats is a self-hosted companion to a Jellyfin media server. It watches what the server plays and turns it into
-answers: who watches what, how it reaches them, what the library is really used for — and, once a year, each
+answers: who watches what, how it reaches them, what the library is really used for and, once a year, each
 person's year in review.
 
 ## Why it exists
@@ -16,4 +16,15 @@ finstats was made to be the small one: a single program with its own built-in da
 minutes and then left alone. It only ever reads from Jellyfin, keeps everything on your own machine, and shows each
 person their own statistics unless you decide otherwise.
 
-**→ [finstats/finstats](https://github.com/finstats/finstats)** — what it shows, how to install it, and how to help.
+**→ [finstats/finstats](https://github.com/finstats/finstats)**: what it shows, how to install it, and how to help.
+
+## Made alongside it
+
+finstats looks and moves the way it does because of two projects of its own, and both work outside it too.
+
+- **[FinUI](https://github.com/finstats/finui)**: the components finstats is built from, in light and dark, with
+  FinUI create to restyle them into a preset you install with one line. Vanilla ES modules and plain CSS, no build
+  step. [See every component](https://finstats.github.io/finui/).
+- **[FinMotion](https://github.com/finstats/finmotion)**: how FinUI moves. One stylesheet and one call, and every FinUI
+  component on the page moves on springs, at the pace each person picks and still for anyone who asks for reduced
+  motion. [See it move](https://finstats.github.io/finmotion/).
