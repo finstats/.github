@@ -18,6 +18,11 @@ person their own statistics unless you decide otherwise.
 
 **→ [finstats/finstats](https://github.com/finstats/finstats)**: what it shows, how to install it, and how to help.
 
+**→ [Try the demo](https://demo.finstats.no/)**: finstats in your browser, with invented people and titles. Nothing to
+install.
+
+**→ [Read the docs](https://finstats.no/)**: finstats, FinUI and FinMotion, in one place.
+
 ## Made alongside it
 
 finstats looks and moves the way it does because of two projects of its own, and both work outside it too.
