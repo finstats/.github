@@ -1,8 +1,8 @@
 <p align="center"><img src="https://raw.githubusercontent.com/finstats/finstats/main/web/assets/logo.svg" width="72" height="72" alt=""></p>
-<h1 align="center">finstats</h1>
+<h1 align="center">FinStats</h1>
 <p align="center"><b>Playback statistics for Jellyfin.</b></p>
 
-finstats is a self-hosted companion to a Jellyfin media server. It watches what the server plays and turns it into
+FinStats is a self-hosted companion to a Jellyfin media server. It watches what the server plays and turns it into
 answers: who watches what, how it reaches them, what the library is really used for and, once a year, each
 person's year in review.
 
@@ -12,11 +12,11 @@ Jellyfin tells you what is playing right now. It does not tell you that one app 
 that four people stream at once every Saturday, or that a third of the disk is films nobody has ever pressed play on.
 
 The trackers that did answer those questions came with a database server of their own to run and look after.
-finstats was made to be the small one: a single program with its own built-in database, set up in a couple of
+FinStats was made to be the small one: a single program with its own built-in database, set up in a couple of
 minutes and then left alone. It only ever reads from Jellyfin, keeps everything on your own machine, and shows each
 person their own statistics unless you decide otherwise.
 
-**→ [Try the demo](https://demo.finstats.no/)**: finstats in your browser, with invented people and titles. Nothing to
+**→ [Try the demo](https://demo.finstats.no/)**: FinStats in your browser, with invented people and titles. Nothing to
 install.
 
 **→ [Get started](https://finstats.no/finstats/install/)**: install it next to Jellyfin in a couple of minutes. Then
@@ -27,9 +27,9 @@ projects is at **[finstats.no](https://finstats.no/)**.
 
 ## Made alongside it
 
-finstats looks and moves the way it does because of two projects of its own, and both work outside it too.
+FinStats looks and moves the way it does because of two projects of its own, and both work outside it too.
 
-- **[FinUI](https://github.com/finstats/finui)**: the components finstats is built from, in light and dark, with
+- **[FinUI](https://github.com/finstats/finui)**: the components FinStats is built from, in light and dark, with
   FinUI create to restyle them into a preset you install with one line. Vanilla ES modules and plain CSS, no build
   step. [See every component](https://finui.finstats.no/), or [read how to use it](https://finstats.no/finui/).
 - **[FinMotion](https://github.com/finstats/finmotion)**: how FinUI moves. One stylesheet and one call, and every FinUI
